@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+} 
+a{
+    text-decoration: none;
+    color: #780000;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display:flex;
+    align-items: center;
+}
+
+.navbar{
+    
+    background-color:bisque;
+    position: sticky;
+    top: 0;
+}
+ui{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+}
+.logo{
+    width: 70%;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+}
+.ground{
+    height: 550px;
+    background-color: rgba(255, 228, 196, 0.599);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.content{
+    background-color: rgb(255, 228, 196);
+    padding: 30px;
+    text-align: center;
+    color:#780000;
+    border-radius: 20px;
+    border-top: 5px solid #780000;
+    border-bottom: 5px solid #780000;
+    font-family: "Pacifico", cursive;
+}
+
